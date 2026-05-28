@@ -5,12 +5,20 @@ end
 
 def concatenate(string)
   # use concatenation to format the result to be "Hello <string>!"
+<<<<<<< HEAD
   "Hello ".concat(string).concat("!")
+=======
+  "Hello " << string << "!"
+>>>>>>> a5bf288 (Completed basic exercises for data types)
 end
 
 def substrings(word)
   # return the first 4 letters from the word using substrings
+<<<<<<< HEAD
   word[0..3]
+=======
+  word[0, 4]
+>>>>>>> a5bf288 (Completed basic exercises for data types)
 end
 
 def capitalize(word)

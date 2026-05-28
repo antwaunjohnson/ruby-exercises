@@ -25,7 +25,11 @@ end
 
 def float_division(a, b)
   # return the result of dividing a by b as a float, rather than an integer
+<<<<<<< HEAD
   a.to_f / b.to_f
+=======
+  a.to_f / b
+>>>>>>> a5bf288 (Completed basic exercises for data types)
 end
 
 def string_to_number(string)
